@@ -1,4 +1,5 @@
 import '@/assets/styles/globals.css';
+import Navbar from '@/components/Navbar';
 import React from 'react';
 
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout(
    return (
       <html lang='en'>
          <body>
+            <Navbar />
             <main>{children}</main>
          </body>
       </html>
